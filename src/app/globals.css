@@ -23,7 +23,20 @@ body {
   color: var(--foreground);
   transition: 0.5s;
 }
+.scroll::-webkit-scrollbar{
+  display: none;
+}
 
 .scroll-containor::-webkit-scrollbar{
-  display: none;
+  background-color: rgb(243, 243, 243);
+  width: 4px;
+
+}
+.scroll-containor::-webkit-scrollbar-track {
+  background: transparent;
+}
+.scroll-containor::-webkit-scrollbar-thumb{
+  background: rgb(220, 58, 238);
+  border-radius: 10px;
+ 
 }
